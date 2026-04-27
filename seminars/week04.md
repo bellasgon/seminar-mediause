@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Week 4
-instructor_slides: ""
+instructor_slides: "/assets/follien/4.pdf"
 ---
 
 # Week 4: Core Studies on Media Use Research in Germany
@@ -14,7 +14,7 @@ instructor_slides: ""
 {% if page.instructor_slides %}
 <div class="card">
   <h3>🎓 Slides</h3>
-  <a class="button" href="https://bellasgon.github.io/seminar-mediause/assets/follien/4.pdf" target="_blank">
+  <a class="button" href="{{ page.instructor_slides | relative_url }}" target="_blank">
     Open slides →
   </a>
 </div>
