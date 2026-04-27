@@ -1,4 +1,4 @@
-title: Seminar 
+title: Seminar
 description: Media Use and News Avoidance
 
 # GitHub Pages:
@@ -25,19 +25,19 @@ course_navigation:
       path: /instructions
 
   follien:
-    - title: Sitzung 1
+    - title: Week 1
       path: /seminars/week01
-    - title: Sitzung 2
+    - title: Week 2
       path: /seminars/week02
-    - title: Sitzung 3
+    - title: Week 3
       path: /seminars/week03
-    - title: Sitzung 4
+    - title: Week 4
       path: /seminars/week04
-    - title: Sitzung 5
+    - title: Week 5
       path: /seminars/week05
-    - title: Sitzung 6
+    - title: Week 6
       path: /seminars/week06
-    - title: Sitzung 7
+    - title: Week 7
       path: /seminars/week07
 
 
