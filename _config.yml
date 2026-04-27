@@ -5,7 +5,7 @@ description: Media Use and News Avoidance
 # - user/organization site => baseurl: ""
 # - project site => baseurl: "/<repo-name>"
 url: ""
-baseurl: "/SeminarC_Sommer"
+baseurl: "/seminar-mediause"
 
 theme: null
 markdown: kramdown
