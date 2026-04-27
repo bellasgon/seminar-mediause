@@ -14,7 +14,7 @@ title: Schedule
 | 28.04 | Methods Review Activity | Group Activity | [PDF 3]({{ "/assets/follien/3.pdf" | relative_url }}) |
 | 05.05 | Core Studies on Media Use Research in Germany | Isabella Gonçalves | [PDF 4]({{ "/assets/follien/4.pdf" | relative_url }}) |
 | 12.05 | Role Play Activity – Funding Media Use Research in Germany | Active Learning Activity | [PDF 5]({{ "/assets/follien/5.pdf" | relative_url }}) |
-| 19.05 | Theories Overview | Isabella Gonçalves |  Isabella Gonçalves | [PDF 6]({{ "/assets/follien/6.pdf" | relative_url }}) |
+| 19.05 | Theories Overview | Isabella Gonçalves | [PDF 6]({{ "/assets/follien/6.pdf" | relative_url }}) |
 | 26.05.2026 | Introduction to News Avoidance  | Isabella Gonçalves | [PDF 7]({{ "/assets/follien/7.pdf" | relative_url }}) |
 | 02.06 | ICA 2026 - No class | - | - |
 | 09.06 | ICA 2026 - No class | - | - |

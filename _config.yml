@@ -1,4 +1,4 @@
-title: Seminar
+title: Seminar 
 description: Media Use and News Avoidance
 
 # GitHub Pages:
@@ -24,7 +24,7 @@ course_navigation:
     - title: Requirements
       path: /instructions
 
-  follien:
+  slides:
     - title: Week 1
       path: /seminars/week01
     - title: Week 2

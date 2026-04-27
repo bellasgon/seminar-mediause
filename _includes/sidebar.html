@@ -12,10 +12,10 @@
     <a href="{{ item.path | relative_url }}">{{ item.title }}</a>
   {% endfor %}
 
-  {% assign slide_items = site.course_navigation.slides | default: site.course_navigation.follien | default: site.course_navigation.folien | default: site.course_navigation.weeks %}
-  {% if slide_items %}
-    <h3>Slides</h3>
-    {% for item in slide_items %}
+  {% assign follien_items = site.course_navigation.follien | default: site.course_navigation.folien | default: site.course_navigation.weeks %}
+  {% if follien_items %}
+    <h3>Follien</h3>
+    {% for item in follien_items %}
       <a href="{{ item.path | relative_url }}">{{ item.title }}</a>
       {% if item.slides %}
         <a class="sub-link" href="{{ item.slides | relative_url }}" target="_blank" rel="noopener">
@@ -24,4 +24,9 @@
       {% endif %}
     {% endfor %}
   {% endif %}
+
+  <h3>Readings</h3>
+  {% for item in site.course_navigation.readings %}
+    <a href="{{ item.path | relative_url }}">{{ item.title }}</a>
+  {% endfor %}
 </nav>
