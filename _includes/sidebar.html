@@ -14,7 +14,7 @@
 
   {% assign follien_items = site.course_navigation.follien | default: site.course_navigation.folien | default: site.course_navigation.weeks %}
   {% if follien_items %}
-    <h3>Follien</h3>
+    <h3>Slides</h3>
     {% for item in follien_items %}
       <a href="{{ item.path | relative_url }}">{{ item.title }}</a>
       {% if item.slides %}
