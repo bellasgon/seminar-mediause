@@ -1,0 +1,48 @@
+title: Seminar 
+description: Media Use and News Avoidance
+
+# GitHub Pages:
+# - user/organization site => baseurl: ""
+# - project site => baseurl: "/<repo-name>"
+url: ""
+baseurl: "/SeminarC_Sommer"
+
+theme: null
+markdown: kramdown
+permalink: pretty
+
+# Logo exibida no topo da sidebar
+course_logo: "/assets/images/jgu-logo.png"
+
+# NavegaC'C#o do curso
+course_navigation:
+  main:
+    - title: Home
+      path: /
+    - title: Schedule
+      path: /schedule
+    - title: Requirements
+      path: /instructions
+
+  follien:
+    - title: Sitzung 1
+      path: /seminars/week01
+    - title: Sitzung 2
+      path: /seminars/week02
+    - title: Sitzung 3
+      path: /seminars/week03
+    - title: Sitzung 4
+      path: /seminars/week04
+    - title: Sitzung 5
+      path: /seminars/week05
+    - title: Sitzung 6
+      path: /seminars/week06
+    - title: Sitzung 7
+      path: /seminars/week07
+
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
