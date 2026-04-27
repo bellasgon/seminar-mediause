@@ -39,6 +39,21 @@ a {
   position: fixed;
 }
 
+
+.sidebar-logo {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.sidebar-logo img {
+  display: block;
+  width: auto;
+  height: 52px;
+  max-width: 220px;
+  object-fit: contain;
+}
+
 .sidebar h2 {
   margin: 0;
   font-size: 1.15rem;

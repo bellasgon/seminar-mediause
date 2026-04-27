@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Week 5
-instructor_slides: ""
+instructor_slides: "/assets/follien/5.pdf"
 ---
 
 # Week 5: Role Play Activity – Funding Media Use Research in Germany
@@ -15,7 +15,7 @@ instructor_slides: ""
 {% if page.instructor_slides %}
 <div class="card">
   <h3>🎓 Role Play Instructions </h3>
-  <a class="button" href="https://bellasgon.github.io/seminar-mediause/assets/follien/5.pdf" target="_blank">
+  <a class="button" href="{{ page.instructor_slides | relative_url }}" target="_blank">
     Open slides →
   </a>
 </div>
