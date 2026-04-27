@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Week 4
-instructor_slides: ""
+title: Week 7
+instructor_slides: "/assets/follien/7.pdf"
 ---
 
-# Week 7: Introduction to News Avoidance 
+# Week 7: Introduction to News Avoidance
 
 <div class="card">
   <h3>👤 Responsible</h3>
@@ -14,7 +14,7 @@ instructor_slides: ""
 {% if page.instructor_slides %}
 <div class="card">
   <h3>🎓 Slides</h3>
-  <a class="button" href="https://bellasgon.github.io/seminar-mediause/assets/follien/7.pdf" target="_blank">
+  <a class="button" href="{{ page.instructor_slides | relative_url }}" target="_blank">
     Open slides →
   </a>
 </div>
